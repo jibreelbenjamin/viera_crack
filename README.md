@@ -32,7 +32,8 @@ Penilaian dilakukan lewat Server Action, jadi aplikasi harus dijalankan dengan `
    - Setelah sampai soal 100 muncul tombol **Marked Questions** (soal ditandai & belum dijawab).
      Next di soal 100 membuka dialog **End of the Test** (Cancel / View Marked Questions / Submit).
    - Timer global 60 menit; saat habis jawaban langsung dikirim.
-3. **Hasil** (`/result`) — skor total, Listening/Reading, per Part, dan pembahasan kunci jawaban.
+3. **Hasil** (`/result`) — nilai berbobot (maks. 446), Listening/Reading, per Part, jumlah soal benar,
+   dan pembahasan kunci jawaban.
 
 Progres (posisi soal, sisa waktu, jawaban, tanda) tersimpan di `localStorage` dengan
 namespace `<kode>::`, sehingga peserta bisa melanjutkan setelah halaman tertutup.
@@ -57,7 +58,8 @@ KUNCI-JAWABAN.md      kunci jawaban beserta alasannya
 
 ## Mengubah soal atau kunci jawaban
 
-Edit `src/data/test.json`. Setiap soal punya `answer` (huruf `A`–`D`) dan `part` (1–7).
+Edit `src/data/test.json`. Setiap soal punya `answer` (huruf `A`–`D`), `weight` (bobot nilai),
+dan `part` (1–7).
 Kunci jawaban hanya dibaca di server, tidak ikut terkirim ke browser.
 
 ## File yang belum ada

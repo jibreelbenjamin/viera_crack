@@ -20,9 +20,10 @@ type RawItem = {
   groupImage?: string;
   audio?: string;
   answer?: string;
+  weight?: number;
 };
 
-type KeyedQuestion = QuestionItem & { answer: Letter };
+type KeyedQuestion = QuestionItem & { answer: Letter; weight: number };
 
 const numberOf = (id: string) => Number(id.replace(/\D/g, ""));
 
@@ -39,6 +40,7 @@ const questions: KeyedQuestion[] = (raw as RawItem[])
     groupImage: it.groupImage,
     audio: it.audio,
     answer: it.answer as Letter,
+    weight: it.weight ?? 1,
   }));
 
 const questionById = new Map(questions.map((q) => [q.id, q]));
@@ -86,6 +88,7 @@ export function gradeAnswers(input: unknown): ExamResult {
       part: q.part,
       answer,
       key: q.answer,
+      weight: q.weight,
       correct: answer === q.answer,
     };
   });
@@ -93,6 +96,8 @@ export function gradeAnswers(input: unknown): ExamResult {
   const tally = (list: typeof details) => ({
     correct: list.filter((d) => d.correct).length,
     total: list.length,
+    points: list.reduce((sum, d) => sum + (d.correct ? d.weight : 0), 0),
+    maxPoints: list.reduce((sum, d) => sum + d.weight, 0),
   });
   const partNumbers = [...new Set(details.map((d) => d.part))];
 

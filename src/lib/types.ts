@@ -24,7 +24,8 @@ export type ExamItem = DirectionItem | QuestionItem;
 /** Jawaban peserta: id soal → huruf pilihan. */
 export type Answers = Record<string, Letter>;
 
-export type Score = { correct: number; total: number };
+/** correct/total = jumlah soal; points/maxPoints = nilai berbobot. */
+export type Score = { correct: number; total: number; points: number; maxPoints: number };
 
 export type ResultDetail = {
   id: string;
@@ -32,12 +33,11 @@ export type ResultDetail = {
   part: number;
   answer: Letter | null;
   key: Letter;
+  weight: number;
   correct: boolean;
 };
 
-export type ExamResult = {
-  correct: number;
-  total: number;
+export type ExamResult = Score & {
   listening: Score;
   reading: Score;
   parts: ({ part: number } & Score)[];

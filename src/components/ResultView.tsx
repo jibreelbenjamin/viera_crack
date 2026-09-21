@@ -20,7 +20,7 @@ export default function ResultView() {
     if (!session.ok) return { kind: "login" as const, message: session.message };
     const result = createExamStore(session.participant.std_code).getJSON<StoredResult>("result");
     if (!result) return { kind: "pending" as const };
-    return { kind: "ok" as const, participant: session.participant, result };
+    return { kind: "ok" as const, participant: session.participant, result: withPoints(result) };
   });
 
   useEffect(() => {
@@ -36,10 +36,22 @@ export default function ResultView() {
   return <Result participant={state.participant} result={state.result} />;
 }
 
+/** Hasil lama (sebelum ada bobot) dinilai 1 poin per soal. */
+function withPoints(result: StoredResult): StoredResult {
+  if (typeof result.maxPoints === "number") return result;
+  const fill = <T extends Score>(s: T): T => ({ ...s, points: s.correct, maxPoints: s.total });
+  return {
+    ...fill(result),
+    listening: fill(result.listening),
+    reading: fill(result.reading),
+    parts: result.parts.map(fill),
+  };
+}
+
 function Result({ participant, result }: { participant: Participant; result: StoredResult }) {
   const router = useRouter();
   const [showReview, setShowReview] = useState(false);
-  const percent = Math.round((result.correct / result.total) * 100);
+  const percent = Math.round((result.points / result.maxPoints) * 100);
   const submittedAt = new Intl.DateTimeFormat("id-ID", {
     dateStyle: "long",
     timeStyle: "short",
@@ -78,10 +90,12 @@ function Result({ participant, result }: { participant: Participant; result: Sto
             </div>
             <div className="text-right">
               <p className="text-5xl font-bold text-brand tabular-nums">
-                {result.correct}
-                <span className="text-2xl text-slate-400">/{result.total}</span>
+                {result.points}
+                <span className="text-2xl text-slate-400">/{result.maxPoints}</span>
               </p>
-              <p className="text-sm text-slate-500">jawaban benar ({percent}%)</p>
+              <p className="text-sm text-slate-500">
+                nilai ({percent}%) · {result.correct}/{result.total} soal benar
+              </p>
             </div>
           </div>
 
@@ -92,18 +106,18 @@ function Result({ participant, result }: { participant: Participant; result: Sto
         </section>
 
         <section className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="text-lg font-semibold">Skor per Part</h2>
+          <h2 className="text-lg font-semibold">Nilai per Part</h2>
           <div className="mt-4 space-y-3">
             {result.parts.map((p) => (
               <div
                 key={p.part}
-                className="grid grid-cols-[5rem_1fr_4rem] items-center gap-3 text-sm sm:grid-cols-[5rem_12rem_1fr_4rem]"
+                className="grid grid-cols-[5rem_1fr_5rem] items-center gap-3 text-sm sm:grid-cols-[5rem_12rem_1fr_5rem]"
               >
                 <span className="font-semibold">Part {p.part}</span>
                 <span className="hidden text-slate-500 sm:block">{PART_LABELS[p.part]}</span>
                 <Bar score={p} />
                 <span className="text-right tabular-nums">
-                  {p.correct}/{p.total}
+                  {p.points}/{p.maxPoints}
                 </span>
               </div>
             ))}
@@ -139,10 +153,13 @@ function SectionCard({ title, score }: { title: string; score: Score }) {
       <div className="flex items-baseline justify-between">
         <p className="font-semibold">{title}</p>
         <p className="text-lg font-bold tabular-nums">
-          {score.correct}
-          <span className="text-sm text-slate-400">/{score.total}</span>
+          {score.points}
+          <span className="text-sm text-slate-400">/{score.maxPoints}</span>
         </p>
       </div>
+      <p className="text-xs text-slate-500">
+        {score.correct}/{score.total} soal benar
+      </p>
       <div className="mt-2">
         <Bar score={score} />
       </div>
@@ -151,7 +168,7 @@ function SectionCard({ title, score }: { title: string; score: Score }) {
 }
 
 function Bar({ score }: { score: Score }) {
-  const value = score.total ? score.correct / score.total : 0;
+  const value = score.maxPoints ? score.points / score.maxPoints : 0;
   return (
     <div className="h-2.5 w-full overflow-hidden rounded-full bg-slate-200">
       <div className="h-full rounded-full bg-brand" style={{ width: `${value * 100}%` }} />
