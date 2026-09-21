@@ -67,6 +67,19 @@ export function getExamItems(): ExamItem[] {
   });
 }
 
+/** Daftar kunci jawaban untuk halaman /kunci. */
+export function getAnswerKey() {
+  return questions.map((q) => ({
+    id: q.id,
+    number: q.number,
+    part: q.part,
+    question: q.question,
+    options: q.options,
+    answer: q.answer,
+    weight: q.weight,
+  }));
+}
+
 function sanitize(input: unknown): Answers {
   const answers: Answers = {};
   if (!input || typeof input !== "object") return answers;
