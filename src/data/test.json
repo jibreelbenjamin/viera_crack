@@ -25,7 +25,7 @@
       "D)"
     ],
     "audio": "/audio/1.mp3",
-    "answer": "A",
+    "answer": "B",
     "weight": 2
   },
   {
@@ -41,7 +41,7 @@
       "D)"
     ],
     "audio": "/audio/2.mp3",
-    "answer": "C",
+    "answer": "A",
     "weight": 4
   },
   {
@@ -132,7 +132,7 @@
       "C)"
     ],
     "audio": "/audio/8.mp3",
-    "answer": "B",
+    "answer": "C",
     "weight": 4
   },
   {
@@ -146,7 +146,7 @@
       "C)"
     ],
     "audio": "/audio/9.mp3",
-    "answer": "A",
+    "answer": "B",
     "weight": 4
   },
   {
@@ -174,7 +174,7 @@
       "C)"
     ],
     "audio": "/audio/11.mp3",
-    "answer": "B",
+    "answer": "C",
     "weight": 2
   },
   {
@@ -188,7 +188,7 @@
       "C)"
     ],
     "audio": "/audio/12.mp3",
-    "answer": "A",
+    "answer": "B",
     "weight": 4
   },
   {
@@ -202,7 +202,7 @@
       "C)"
     ],
     "audio": "/audio/13.mp3",
-    "answer": "C",
+    "answer": "B",
     "weight": 4
   },
   {
@@ -216,7 +216,7 @@
       "C)"
     ],
     "audio": "/audio/14.mp3",
-    "answer": "A",
+    "answer": "B",
     "weight": 2
   },
   {
@@ -230,7 +230,7 @@
       "C)"
     ],
     "audio": "/audio/15.mp3",
-    "answer": "A",
+    "answer": "C",
     "weight": 6
   },
   {
@@ -258,7 +258,7 @@
       "C)"
     ],
     "audio": "/audio/17.mp3",
-    "answer": "B",
+    "answer": "C",
     "weight": 4
   },
   {
@@ -293,7 +293,7 @@
       "D) The variety"
     ],
     "audio": "/audio/19.mp3",
-    "answer": "A",
+    "answer": "D",
     "weight": 4
   },
   {
@@ -323,7 +323,7 @@
       "D) Drive her home."
     ],
     "audio": "/audio/21.mp3",
-    "answer": "A",
+    "answer": "B",
     "weight": 6
   },
   {
@@ -338,7 +338,7 @@
       "D) Ms. Santoro’s phone number"
     ],
     "audio": "/audio/22.mp3",
-    "answer": "D",
+    "answer": "A",
     "weight": 4
   },
   {
@@ -353,7 +353,7 @@
       "D) Call their driver."
     ],
     "audio": "/audio/23.mp3",
-    "answer": "C",
+    "answer": "A",
     "weight": 4
   },
   {
@@ -368,7 +368,7 @@
       "D) At a restaurant"
     ],
     "audio": "/audio/24.mp3",
-    "answer": "A",
+    "answer": "C",
     "weight": 4
   },
   {
@@ -383,7 +383,7 @@
       "D) The woman is naturally good at recognizing their taste."
     ],
     "audio": "/audio/25.mp3",
-    "answer": "B",
+    "answer": "D",
     "weight": 4
   },
   {
@@ -398,7 +398,7 @@
       "D) Dining in a Mexican restaurant"
     ],
     "audio": "/audio/26.mp3",
-    "answer": "B",
+    "answer": "A",
     "weight": 4
   },
   {
@@ -414,7 +414,7 @@
       "D) A musical play"
     ],
     "audio": "/audio/27.mp3",
-    "answer": "C",
+    "answer": "A",
     "weight": 4
   },
   {
@@ -430,7 +430,7 @@
       "D) $25.00"
     ],
     "audio": "/audio/28.mp3",
-    "answer": "A",
+    "answer": "B",
     "weight": 6
   },
   {
@@ -446,7 +446,7 @@
       "D) Prepare a flyer."
     ],
     "audio": "/audio/29.mp3",
-    "answer": "D",
+    "answer": "A",
     "weight": 6
   },
   {
@@ -462,7 +462,7 @@
       "D) He was not allowed to print."
     ],
     "audio": "/audio/30.mp3",
-    "answer": "D",
+    "answer": "C",
     "weight": 4
   },
   {
@@ -478,7 +478,7 @@
       "D) Laura Mars"
     ],
     "audio": "/audio/31.mp3",
-    "answer": "C",
+    "answer": "A",
     "weight": 6
   },
   {
@@ -494,7 +494,7 @@
       "D) Email a meeting agenda."
     ],
     "audio": "/audio/32.mp3",
-    "answer": "B",
+    "answer": "A",
     "weight": 4
   },
   {
@@ -510,7 +510,7 @@
       "D) At a car dealer"
     ],
     "audio": "/audio/33.mp3",
-    "answer": "B",
+    "answer": "C",
     "weight": 2
   },
   {
@@ -526,7 +526,7 @@
       "D) IT Evaluation Meeting"
     ],
     "audio": "/audio/34.mp3",
-    "answer": "C",
+    "answer": "B",
     "weight": 6
   },
   {
@@ -562,7 +562,7 @@
       "D) Housekeepers"
     ],
     "audio": "/audio/36.mp3",
-    "answer": "C",
+    "answer": "A",
     "weight": 4
   },
   {
@@ -592,7 +592,7 @@
       "D) Videotapes"
     ],
     "audio": "/audio/38.mp3",
-    "answer": "B",
+    "answer": "C",
     "weight": 6
   },
   {
@@ -607,7 +607,7 @@
       "D) It just raised staff’s salaries."
     ],
     "audio": "/audio/39.mp3",
-    "answer": "B",
+    "answer": "C",
     "weight": 6
   },
   {
@@ -637,7 +637,7 @@
       "D) Accept suggestions."
     ],
     "audio": "/audio/41.mp3",
-    "answer": "D",
+    "answer": "C",
     "weight": 4
   },
   {
@@ -667,7 +667,7 @@
       "D) A 25% discount"
     ],
     "audio": "/audio/43.mp3",
-    "answer": "B",
+    "answer": "A",
     "weight": 4
   },
   {
@@ -682,7 +682,7 @@
       "D) To commemorate the birthday"
     ],
     "audio": "/audio/44.mp3",
-    "answer": "A",
+    "answer": "B",
     "weight": 6
   },
   {
@@ -698,7 +698,7 @@
       "D) Apparel styles"
     ],
     "audio": "/audio/45.mp3",
-    "answer": "A",
+    "answer": "C",
     "weight": 6
   },
   {
@@ -730,7 +730,7 @@
       "D) Packaging materials"
     ],
     "audio": "/audio/47.mp3",
-    "answer": "C",
+    "answer": "A",
     "weight": 6
   },
   {
@@ -762,7 +762,7 @@
       "D) Building E"
     ],
     "audio": "/audio/49.mp3",
-    "answer": "A",
+    "answer": "B",
     "weight": 6
   },
   {
@@ -778,7 +778,7 @@
       "D) A program to produce chips"
     ],
     "audio": "/audio/50.mp3",
-    "answer": "C",
+    "answer": "B",
     "weight": 6
   },
   {
@@ -796,7 +796,7 @@
       "C) produced",
       "D) decided"
     ],
-    "answer": "B",
+    "answer": "D",
     "weight": 4
   },
   {
@@ -810,7 +810,7 @@
       "C) period",
       "D) periodic"
     ],
-    "answer": "D",
+    "answer": "A",
     "weight": 6
   },
   {
@@ -824,7 +824,7 @@
       "C) program",
       "D) loyalty"
     ],
-    "answer": "A",
+    "answer": "C",
     "weight": 6
   },
   {
@@ -838,7 +838,7 @@
       "C) who",
       "D) as"
     ],
-    "answer": "D",
+    "answer": "C",
     "weight": 4
   },
   {
@@ -852,7 +852,7 @@
       "C) into",
       "D) onto"
     ],
-    "answer": "C",
+    "answer": "B",
     "weight": 4
   },
   {
@@ -880,7 +880,7 @@
       "C) directly",
       "D) brightly"
     ],
-    "answer": "A",
+    "answer": "C",
     "weight": 2
   },
   {
@@ -894,7 +894,7 @@
       "C) after",
       "D) however"
     ],
-    "answer": "A",
+    "answer": "C",
     "weight": 2
   },
   {
@@ -908,7 +908,7 @@
       "C) listening",
       "D) concerning"
     ],
-    "answer": "C",
+    "answer": "D",
     "weight": 4
   },
   {
@@ -922,7 +922,7 @@
       "C) certainties",
       "D) certain"
     ],
-    "answer": "D",
+    "answer": "B",
     "weight": 2
   },
   {
@@ -941,7 +941,7 @@
       "C) lecture",
       "D) service"
     ],
-    "answer": "A",
+    "answer": "D",
     "weight": 6
   },
   {
@@ -956,7 +956,7 @@
       "C) are delighting",
       "D) delight"
     ],
-    "answer": "D",
+    "answer": "B",
     "weight": 4
   },
   {
@@ -986,7 +986,7 @@
       "C) celebrating",
       "D) celebration"
     ],
-    "answer": "B",
+    "answer": "C",
     "weight": 2
   },
   {
@@ -1001,7 +1001,7 @@
       "C) has included",
       "D) could have included"
     ],
-    "answer": "C",
+    "answer": "B",
     "weight": 4
   },
   {
@@ -1016,7 +1016,7 @@
       "C) spacious",
       "D) relevant"
     ],
-    "answer": "B",
+    "answer": "A",
     "weight": 4
   },
   {
@@ -1031,7 +1031,7 @@
       "C) Although the people are excited, such project may be behind schedule",
       "D) Unless the project is on time, many of the young may move to other areas"
     ],
-    "answer": "A",
+    "answer": "C",
     "weight": 2
   },
   {
@@ -1046,7 +1046,7 @@
       "C) authenticity",
       "D) program"
     ],
-    "answer": "B",
+    "answer": "A",
     "weight": 6
   },
   {
@@ -1065,7 +1065,7 @@
       "C) In Room 108",
       "D) In Rose Smith’s house"
     ],
-    "answer": "D",
+    "answer": "A",
     "weight": 2
   },
   {
@@ -1080,7 +1080,7 @@
       "C) Plan an accounting class.",
       "D) Attend a farewell party."
     ],
-    "answer": "C",
+    "answer": "D",
     "weight": 4
   },
   {
@@ -1140,7 +1140,7 @@
       "C) Finding new customers",
       "D) Deciding to sell the café"
     ],
-    "answer": "C",
+    "answer": "B",
     "weight": 4
   },
   {
@@ -1170,7 +1170,7 @@
       "C) A food festival",
       "D) A nearby area"
     ],
-    "answer": "B",
+    "answer": "C",
     "weight": 6
   },
   {
@@ -1185,7 +1185,7 @@
       "C) Giving coworkers supports",
       "D) Receiving calls from clients"
     ],
-    "answer": "A",
+    "answer": "D",
     "weight": 4
   },
   {
@@ -1200,7 +1200,7 @@
       "C) A college degree",
       "D) Employer references"
     ],
-    "answer": "C",
+    "answer": "B",
     "weight": 6
   },
   {
@@ -1215,7 +1215,7 @@
       "C) To inquire about the applying process",
       "D) To find out about their application status"
     ],
-    "answer": "C",
+    "answer": "A",
     "weight": 2
   },
   {
@@ -1260,7 +1260,7 @@
       "C) expect",
       "D) rethink"
     ],
-    "answer": "A",
+    "answer": "B",
     "weight": 4
   },
   {
@@ -1275,7 +1275,7 @@
       "C) It will be adding a room for family gathering.",
       "D) Its owner will be more often in the gallery."
     ],
-    "answer": "D",
+    "answer": "C",
     "weight": 6
   },
   {
@@ -1290,7 +1290,7 @@
       "C) A cutlery maker",
       "D) Ms. Richards’ boss"
     ],
-    "answer": "B",
+    "answer": "A",
     "weight": 4
   },
   {
@@ -1305,7 +1305,7 @@
       "C) He will pay the merchandise.",
       "D) He will contact Ms. Richards."
     ],
-    "answer": "B",
+    "answer": "A",
     "weight": 4
   },
   {
@@ -1320,7 +1320,7 @@
       "C) To inform him about a language team",
       "D) To sign a remote contract"
     ],
-    "answer": "A",
+    "answer": "D",
     "weight": 2
   },
   {
@@ -1335,7 +1335,7 @@
       "C) A list of training participants",
       "D) A summary of his online classes"
     ],
-    "answer": "A",
+    "answer": "B",
     "weight": 2
   },
   {
@@ -1365,7 +1365,7 @@
       "C) To explain meeting procedures",
       "D) To make travel arrangements"
     ],
-    "answer": "D",
+    "answer": "B",
     "weight": 4
   },
   {
@@ -1380,7 +1380,7 @@
       "C) Start his journey to Indonesia",
       "D) Be present at a virtual meeting"
     ],
-    "answer": "C",
+    "answer": "D",
     "weight": 4
   },
   {
@@ -1395,7 +1395,7 @@
       "C) Chocolate",
       "D) Tourism"
     ],
-    "answer": "D",
+    "answer": "C",
     "weight": 6
   },
   {
@@ -1410,7 +1410,7 @@
       "C) Confirm on the registration that they are presenting.",
       "D) Inform Mr. Siregar about the change of flight."
     ],
-    "answer": "B",
+    "answer": "C",
     "weight": 6
   },
   {
@@ -1425,7 +1425,7 @@
       "C) Discuss her presentation with Mr. Siregar.",
       "D) Cancel the accommodation for her colleague."
     ],
-    "answer": "D",
+    "answer": "A",
     "weight": 2
   },
   {
@@ -1440,7 +1440,7 @@
       "C) contract",
       "D) charter"
     ],
-    "answer": "B",
+    "answer": "A",
     "weight": 6
   },
   {
@@ -1455,7 +1455,7 @@
       "C) He surprised the participants with his topic.",
       "D) He met some experts with same interest in the event."
     ],
-    "answer": "A",
+    "answer": "D",
     "weight": 4
   },
   {
@@ -1470,7 +1470,7 @@
       "C) It will soon open a public consultation.",
       "D) It plans to revitalize the old oak trees."
     ],
-    "answer": "B",
+    "answer": "C",
     "weight": 6
   },
   {
@@ -1500,7 +1500,7 @@
       "C) bravery",
       "D) challenge"
     ],
-    "answer": "A",
+    "answer": "B",
     "weight": 6
   },
   {
@@ -1515,7 +1515,7 @@
       "C) To give them support on historical events",
       "D) To let them know about his appointment"
     ],
-    "answer": "C",
+    "answer": "B",
     "weight": 6
   },
   {

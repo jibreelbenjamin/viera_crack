@@ -1,119 +1,116 @@
 # Kunci Jawaban VIERA — Listening & Reading
 
-Sumber: `kunci_jawaban.txt` (Quiz ID 455). Kunci dan bobot ini dipakai aplikasi lewat field
-`answer` dan `weight` di `src/data/test.json`. Nilai = jumlah bobot soal yang dijawab benar
-(maksimal 446: Listening 230, Reading 216).
-
-Koreksi: di file sumber, kunci soal 4 dan 5 adalah D, padahal kedua soal itu hanya punya
-pilihan A–C. Kuncinya diganti sesuai audio: soal 4 = B ("Yes, please. Thanks."),
-soal 5 = C ("In Tokyo, Japan.").
+Sumber kunci: `Soal_VIERA_Listening_Reading.docx`. Bobot nilai dari `kunci_jawaban.txt`
+(Quiz ID 455). Keduanya dipakai aplikasi lewat field `answer` dan `weight` di
+`src/data/test.json`. Nilai = jumlah bobot soal yang dijawab benar (maksimal 446:
+Listening 230, Reading 216).
 
 ## Listening
 
 | No | Kunci | Bobot |
 |----|:-----:|:-----:|
-| 1 | A | 2 |
-| 2 | C | 4 |
+| 1 | B | 2 |
+| 2 | A | 4 |
 | 3 | B | 6 |
-| 4 | B* | 6 |
-| 5 | C* | 4 |
+| 4 | B | 6 |
+| 5 | C | 4 |
 | 6 | C | 2 |
 | 7 | A | 2 |
-| 8 | B | 4 |
-| 9 | A | 4 |
+| 8 | C | 4 |
+| 9 | B | 4 |
 | 10 | C | 4 |
-| 11 | B | 2 |
-| 12 | A | 4 |
-| 13 | C | 4 |
-| 14 | A | 2 |
-| 15 | A | 6 |
+| 11 | C | 2 |
+| 12 | B | 4 |
+| 13 | B | 4 |
+| 14 | B | 2 |
+| 15 | C | 6 |
 | 16 | B | 4 |
-| 17 | B | 4 |
+| 17 | C | 4 |
 | 18 | C | 4 |
-| 19 | A | 4 |
+| 19 | D | 4 |
 | 20 | B | 4 |
-| 21 | A | 6 |
-| 22 | D | 4 |
-| 23 | C | 4 |
-| 24 | A | 4 |
-| 25 | B | 4 |
-| 26 | B | 4 |
-| 27 | C | 4 |
-| 28 | A | 6 |
-| 29 | D | 6 |
-| 30 | D | 4 |
-| 31 | C | 6 |
-| 32 | B | 4 |
-| 33 | B | 2 |
-| 34 | C | 6 |
+| 21 | B | 6 |
+| 22 | A | 4 |
+| 23 | A | 4 |
+| 24 | C | 4 |
+| 25 | D | 4 |
+| 26 | A | 4 |
+| 27 | A | 4 |
+| 28 | B | 6 |
+| 29 | A | 6 |
+| 30 | C | 4 |
+| 31 | A | 6 |
+| 32 | A | 4 |
+| 33 | C | 2 |
+| 34 | B | 6 |
 | 35 | D | 6 |
-| 36 | C | 4 |
+| 36 | A | 4 |
 | 37 | C | 6 |
-| 38 | B | 6 |
-| 39 | B | 6 |
+| 38 | C | 6 |
+| 39 | C | 6 |
 | 40 | A | 6 |
-| 41 | D | 4 |
+| 41 | C | 4 |
 | 42 | C | 6 |
-| 43 | B | 4 |
-| 44 | A | 6 |
-| 45 | A | 6 |
+| 43 | A | 4 |
+| 44 | B | 6 |
+| 45 | C | 6 |
 | 46 | D | 6 |
-| 47 | C | 6 |
+| 47 | A | 6 |
 | 48 | A | 6 |
-| 49 | A | 6 |
-| 50 | C | 6 |
+| 49 | B | 6 |
+| 50 | B | 6 |
 
 ## Reading
 
 | No | Kunci | Bobot |
 |----|:-----:|:-----:|
-| 51 | B | 4 |
-| 52 | D | 6 |
-| 53 | A | 6 |
-| 54 | D | 4 |
-| 55 | C | 4 |
+| 51 | D | 4 |
+| 52 | A | 6 |
+| 53 | C | 6 |
+| 54 | C | 4 |
+| 55 | B | 4 |
 | 56 | D | 4 |
-| 57 | A | 2 |
-| 58 | A | 2 |
-| 59 | C | 4 |
-| 60 | D | 2 |
-| 61 | A | 6 |
-| 62 | D | 4 |
+| 57 | C | 2 |
+| 58 | C | 2 |
+| 59 | D | 4 |
+| 60 | B | 2 |
+| 61 | D | 6 |
+| 62 | B | 4 |
 | 63 | D | 4 |
-| 64 | B | 2 |
-| 65 | C | 4 |
-| 66 | B | 4 |
-| 67 | A | 2 |
-| 68 | B | 6 |
-| 69 | D | 2 |
-| 70 | C | 4 |
+| 64 | C | 2 |
+| 65 | B | 4 |
+| 66 | A | 4 |
+| 67 | C | 2 |
+| 68 | A | 6 |
+| 69 | A | 2 |
+| 70 | D | 4 |
 | 71 | D | 4 |
 | 72 | C | 4 |
 | 73 | A | 4 |
-| 74 | C | 4 |
+| 74 | B | 4 |
 | 75 | A | 4 |
-| 76 | B | 6 |
-| 77 | A | 4 |
-| 78 | C | 6 |
-| 79 | C | 2 |
+| 76 | C | 6 |
+| 77 | D | 4 |
+| 78 | B | 6 |
+| 79 | A | 2 |
 | 80 | C | 6 |
 | 81 | C | 6 |
-| 82 | A | 4 |
-| 83 | D | 6 |
-| 84 | B | 4 |
-| 85 | B | 4 |
-| 86 | A | 2 |
-| 87 | A | 2 |
+| 82 | B | 4 |
+| 83 | C | 6 |
+| 84 | A | 4 |
+| 85 | A | 4 |
+| 86 | D | 2 |
+| 87 | B | 2 |
 | 88 | A | 6 |
-| 89 | D | 4 |
-| 90 | C | 4 |
-| 91 | D | 6 |
-| 92 | B | 6 |
-| 93 | D | 2 |
-| 94 | B | 6 |
-| 95 | A | 4 |
-| 96 | B | 6 |
+| 89 | B | 4 |
+| 90 | D | 4 |
+| 91 | C | 6 |
+| 92 | C | 6 |
+| 93 | A | 2 |
+| 94 | A | 6 |
+| 95 | D | 4 |
+| 96 | C | 6 |
 | 97 | C | 6 |
-| 98 | A | 6 |
-| 99 | C | 6 |
+| 98 | B | 6 |
+| 99 | B | 6 |
 | 100 | D | 6 |
